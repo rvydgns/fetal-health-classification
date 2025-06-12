@@ -6,13 +6,12 @@ Bu proje, fetal_health.csv veri seti kullanılarak anne karnındaki fetüslerin 
 - `fetal_health.csv`: Veri seti
 - `fetal_health_classification.ipynb`: Modelleme ve analiz
 - `fetal_health_report_final.pdf`: Proje raporu
-- `figures/`: Grafik ve görseller
+- `figures/`: Grafikler
 
 ## Özellikler
 - Verinin ön işlenmesi ve görselleştirilmesi
 - Farklı algoritmalarla model karşılaştırması (Random Forest, Logistic Regression, SVM vs.)
 - Model başarım metrikleriyle detaylı değerlendirme (Accuracy, F1-score)
-- Eğitilmiş modelin .pkl dosyası olarak kaydedilmesi
 
 
 ## Kullanılan Kütüphaneler
@@ -24,16 +23,13 @@ Bu proje, fetal_health.csv veri seti kullanılarak anne karnındaki fetüslerin 
 ## Nasıl Çalıştırılır?
 Gerekli kütüphaneleri yükleyin:
 
-
 ```bash
 pip install -r requirements.txt
-Jupyter Notebook'u açın ve çalıştırın:
-
 ```
+Jupyter Notebook'u açın ve çalıştırın:
 
 ```bash
 jupyter notebook fetal_health_classification.ipynb
-
 ```
 
 ## Sonuç
